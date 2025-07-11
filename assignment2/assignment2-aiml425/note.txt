@@ -1,0 +1,28 @@
+Problem I: Classification on MNIST
+1.1 Data Preprocessing and Preparation
+Data Preparation:
+
+Downloading and Preprocessing: Discuss the process of downloading the MNIST dataset and preprocessing it. This includes:
+Loading the Data: Use libraries like TensorFlow or PyTorch to load the MNIST dataset.
+Data Augmentation: Explain how you rotate 1/3 of the images left, 1/3 right, and leave 1/3 unchanged. Consider using image processing libraries for this.
+Splitting Data: Describe how you separate the data into training and validation sets. Discuss the impact of this split on model training and validation.
+Effect of Preprocessing:
+
+Impact on Model Training: Explore how rotating images affects the training process. This can include changes in feature extraction and the difficulty of the classification task.
+Distribution of Rotations: Analyze how balancing different rotations in the dataset affects model performance.
+1.2 Model Training
+Network Design:
+
+Architecture: Discuss the architecture of the network used for classification. This could be a simple CNN or a more complex model depending on your design.
+Objective: Explain the classification task of detecting rotations (left, right, none) and how the network is structured to handle this multi-class problem.
+SGD Implementation:
+
+SGD Iterations: Explain the use of Stochastic Gradient Descent (SGD) for training, including how iterations are managed and how learning rates are adjusted.
+Training Process: Discuss the process of training the network with SGD and any challenges faced during this process.
+1.3 Evaluation
+Training and Validation Accuracy:
+
+Plotting: Provide a plot showing training and validation accuracy as functions of epochs. Explain how to interpret these plots and what they reveal about model performance and overfitting.
+Final Accuracy:
+
+Test Accuracy: Report the final accuracy of the model on the test dataset. Discuss any discrepancies between training, validation, and test performance and possible reasons.
